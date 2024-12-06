@@ -89,22 +89,23 @@ body {
 #rom-patcher-container #rom-patcher-row-patch-description,
 #rom-patcher-container #rom-patcher-row-patch-requirements,
 #rom-patcher-container #rom-patcher-row-error-message {
-	display: none
+	display: none;
 }
 
 #rom-patcher-container #rom-patcher-row-info-rom.show,
 #rom-patcher-container #rom-patcher-row-alter-header.show,
 #rom-patcher-container #rom-patcher-row-patch-description.show,
 #rom-patcher-container #rom-patcher-row-patch-requirements.show {
-	display: flex
+	display: flex;
 }
 
 #rom-patcher-container #rom-patcher-row-error-message.show {
-	display: block
+	display: block;
 }
 
 #rom-patcher-patch-description {
 	font-size: 85%;
+	display: show;
 }
 
 #rom-patcher-row-apply {
